@@ -27,7 +27,7 @@ public class Product implements Serializable {
 	private Long id;
 	private String name;
 	
-	@Column (columnDefinition = "TEXT")
+	@Column (columnDefinition = "TEXT") // PARA ACEITAR TEXTOS LONGOS NO BANCO DE DADOS
 	private String description;
 	private Double price;
 	private String imgUrl;
