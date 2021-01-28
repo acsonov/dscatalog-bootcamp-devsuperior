@@ -25,7 +25,7 @@ public class Category implements Serializable {
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE") // ARMAZENAMENTO DE TEMPO PADRÃO UTC
 	private Instant createdAt;
 
-	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE") // ARMAZENAMENTO DE TEMPO PADRÃO UTC
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant updatedAt;
 
 	public Category() {
